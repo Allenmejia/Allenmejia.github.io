@@ -1,0 +1,297 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    list-style: none;
+}
+
+.hero{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-color: #aec2e4;
+}
+.hero1{
+    position: relative;
+    width: 100%;
+    height: 155vh;
+    background-color: #aec2e4;
+}
+.hero2{
+    position: relative;
+    width: 100%;
+    height: 200vh;
+    background-color: #aec2e4;
+}
+
+.lobo{
+    margin-top: 1.5%;
+}
+
+nav{
+    display: flex;
+    width: 84%;
+    margin: auto;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav{
+    background: #2a3950;
+    height: 105px;
+    width: 100%;
+}
+
+nav img{
+    padding: 0 80px;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: rgb(163, 176, 211);
+    font-size: 110%;
+    font-weight: bold;
+    padding: 63px 80px;
+    border-radius: 0px;
+}
+
+a.active, a:hover{
+    background: #3e4e69;
+    transition: .5s;
+}
+
+.detel{
+    margin-left: 8%;
+    margin-top: 10%;
+}
+
+.detel h1{
+    font-size: 50px;
+    color: black;
+    margin-bottom: 20px;
+}
+
+.bout{
+    margin-left: 8%;
+    margin-top: 5%;
+}
+
+.bout h1{
+    font-size: 50px;
+    color: black;
+    margin-bottom: 20px;
+}
+.bout li{
+    font-weight: bold;
+}
+
+.portfol{
+    margin-left: 8%;
+    margin-top: 5%;
+}
+
+.portfol h1{
+    font-size: 50px;
+    color: black;
+    margin-bottom: 20px;
+}
+.portfol1 h1{
+    font-size: 50px;
+    color: black;
+    margin-bottom: 20px;
+}
+.portfol2 h1{
+    font-size: 30px;
+    color: black;
+    margin-bottom: 20px;
+}
+.portfol2 h2{
+    font-size: 30px;
+    color: black;
+    margin-bottom: 20px;
+}
+.portfol2 p{
+    color: black;
+}
+
+h3{
+    margin: 5px;
+}
+.skill{
+    width: 500px;
+    margin-top: 0%;
+    margin-left: 0px;
+    color: rgb(63, 80, 131);
+    padding: 5px;
+   
+}
+.skill li{
+    text-transform: uppercase;
+    margin: 20px 0;
+    padding: 10px;
+}
+.bar{
+    background:#8da2c5;
+    display: block;
+    height: 20px;
+    border: 1px solid rgba(0,0,0,0.3);
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+.bar:hover{
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+.bar span{
+    height: 20px;
+    float: left;
+    background: linear-gradient(135deg, rgb(38, 36, 80)0%, rgb(78, 76, 160)100%);
+}
+.html{
+    width: 50%;
+    animation: html 3s;
+}
+.css{
+    width: 50%;
+    animation: css 3s;
+}
+.java{
+    width: 30%;
+    animation: java 3s;
+}
+.flutter{
+    width: 35%;
+    animation: flutter 3s;
+}
+@keyframes html{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 50%;
+    }
+}
+@keyframes css{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 50%;
+    }
+}
+@keyframes java{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 30%;
+    }
+}
+@keyframes flutter{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 35%;
+    }
+}
+
+.detel span{
+    color: rgb(63, 80, 131);
+}
+
+.bout span{
+    color: rgb(63, 80, 131);
+}
+
+.portfol1 span{
+    color: rgb(63, 80, 131);
+}
+.portfol span{
+    color: rgb(63, 80, 131);
+}
+
+.detel p{
+    color:black;
+    line-height: 22px;
+}
+
+.detel a{
+    background: none;
+    padding-top: 45px;
+    margin-top: 10%;
+    border-radius: 5px;
+}
+.detel a:hover{
+    background: #687a9b;
+    transition: .5s;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.images{
+    width: 45%;
+    height: 75%;
+    position: absolute;
+    bottom: 0;
+    right: 100px;
+}
+
+.images img{
+    height: 100%;
+    position: absolute;
+    left: 40%;
+    bottom: 0px;
+    transform: translateX(-50%);
+    transition: bottom 1s, left 1s;
+}
+
+.images:hover .zoid2{
+    bottom: 40px;
+}
+
+
+.images:hover .my_face{
+    left: 45%;
+}
+
+.images1 .zoid1{
+    width: 80%;
+    height: 80%;
+    position: fixed;
+    bottom: 0;
+    right: 100px;
+    opacity: 60%;
+}
+
+.images2 .zoid2{
+    width: 80%;
+    height: 80%;
+    position: fixed;
+    bottom: 0;
+    right: 100px;
+    opacity: 50%;
+}
+.images2 .zoid3{
+    width: 80%;
+    height: 80%;
+    position: fixed;
+    bottom: 0;
+    right: 100px;
+    opacity: 50%;
+}
+.images2 .zoid4{
+    width: 80%;
+    height: 80%;
+    position: fixed;
+    bottom: 0;
+    right: 100px;
+    opacity: 60%;
+}
