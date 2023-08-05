@@ -11,7 +11,7 @@
     height: 100vh;
     background-image: url("images/casual.jpg");
     background-size: cover;
-    background-color: #aec2e4;
+    
 }
 .hero1{
     position: relative;
@@ -19,7 +19,7 @@
     height: 165vh;
     background-image: url("images/casual1.jpg");
     background-size: cover;
-    background-color: #aec2e4;
+    
 }
 .hero2{
     position: relative;
@@ -27,7 +27,7 @@
     height: 120vh;
     background-image: url("images/casual2.jpg");
     background-size: cover;
-    background-color: #aec2e4;
+    
 }
 
 .lobo{
@@ -211,4 +211,6 @@ li{
 .images:hover .my_face{
     left: 45%;
 }
-
+.images:hover .zoid2{
+    bottom: 15%;
+}
